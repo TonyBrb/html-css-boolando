@@ -1,0 +1,59 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.card{
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  background-size: contain;
+}
+
+.card.one{
+  background-image: url('../img/1b.webp');
+}
+
+.card.two{
+  background-image: url('../img/2b.webp');
+}
+.card.three{
+  background-image: url('../img/3b.webp');
+}
+
+.card img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.card img:hover{
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.heart{
+  position: absolute;
+  width: 10%;
+  background-color: white;
+  text-align: center;
+  right: 0;
+  top:2%;
+}
+
+.sconto{
+  position: absolute;
+  background-color: #EB0030;
+  color: white;
+  padding: 3px;
+  left: 0;
+  bottom: 5%;
+}
+
+
