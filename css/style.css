@@ -14,52 +14,36 @@ body{
 }
 
 .row{
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .card{
-  position: relative;
   display: inline-block;
   width: 30%;
   background-size: contain;
 }
 
-.card.one{
-  background-image: url('../img/1b.webp');
+.card-img{
+  position: relative;
 }
 
-.card.two{
-  background-image: url('../img/2b.webp');
-  margin-left: 1%;
-  margin-right: 1%;
-}
-.card.three{
-  background-image: url('../img/3b.webp');
-}
-
-.card.four{
-  background-image: url('../img/4b.webp');
-}
-
-.card.five{
-  background-image: url('../img/5b.webp');
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-.card.six{
-  background-image: url('../img/6b.webp');
-}
-
-.card img{
+.card-img img{
   width: 100%;
   cursor: pointer;
 }
 
-.card img:hover{
-  cursor: pointer;
-  visibility: hidden;
+.img2{
+  display: none;
 }
+
+.card-img:hover .img2{
+  display: inline-block;
+} 
+
+.card-img:hover .img1{
+  display: none;
+}
+
 
 .heart{
   position: absolute;
@@ -100,11 +84,6 @@ body{
   bottom: 3%;
 }
 
-.description{
-  position: absolute;
-  bottom: -50px;
-  font-size: 12px;
-}
 
 .description .red{
   color: red;
